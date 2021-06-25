@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const API_KEY = 'AIzaSyDY3p9EU1UxW3fC3DpaixCssQ7PqG0kAkw';
+import SearchBar from './components/search_bar';
+
+const API_KEY = 'API_KEY_HERE';
 
 const App = () => {
-    return <div>Hi!</div>;
+    return (
+    <div>
+        <SearchBar />
+    </div>
+    );
 }
 
 
